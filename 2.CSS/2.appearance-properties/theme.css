@@ -1,0 +1,31 @@
+html {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #ececec;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+video {
+  width: 300px;
+}
+
+button {
+  width: 200px;
+  padding: 12px;
+  margin: 12px;
+  border: 1px solid black;
+  background-color: white;
+  transition: box-shadow 0.3s;
+}
+
+button:hover {
+  box-shadow: #b9b4b4 0px 2px 2px 2px;
+}
